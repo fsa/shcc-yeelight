@@ -1,0 +1,6 @@
+{
+    "name": "Yeelight",
+    "namespace": "FSA\\YeelightPlugin\\",
+    "description": "Обеспечивает поддержку светильников Yeelight при включении на этом оборудовании режима «Управление по локальной сети».",
+    "daemon": "FSA\\YeelightPlugin\\Daemon"
+}

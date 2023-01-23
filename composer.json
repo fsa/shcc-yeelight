@@ -1,0 +1,23 @@
+{
+    "name": "fsa/shcc-yeelight",
+    "description": "Плагин SHCC. Обеспечивает поддержку светильников Yeelight при включении на этом оборудовании режима «Управление по локальной сети».",
+    "keywords": [
+        "shcc"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sergei Fedotov",
+            "email": "fsa@tavda.info"
+        }
+    ],
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "FSA\\YeelightPlugin\\": "classes/"
+        }
+    },
+    "require": {
+        "fsa/shcc-framework": "^0.1"
+    }
+}
