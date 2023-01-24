@@ -15,7 +15,7 @@ class Daemon implements DaemonInterface
 
     public function __construct($events, $params)
     {
-        $events_callback = $events;
+        $this->events_callback = $events;
     }
 
     public function getName()
